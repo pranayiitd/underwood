@@ -1,0 +1,61 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.6)
+    ast (2.0.0)
+    astrolabe (1.3.0)
+      parser (>= 2.2.0.pre.3, < 3.0)
+    awesome_print (1.2.0)
+    bson (1.11.1)
+    bson_ext (1.11.1)
+      bson (~> 1.11.1)
+    buftok (0.2.0)
+    equalizer (0.0.9)
+    faraday (0.9.0)
+      multipart-post (>= 1.2, < 3)
+    http (0.6.3)
+      http_parser.rb (~> 0.6.0)
+    http_parser.rb (0.6.0)
+    json (1.8.1)
+    memoizable (0.4.2)
+      thread_safe (~> 0.3, >= 0.3.1)
+    mongo (1.11.1)
+      bson (= 1.11.1)
+    multipart-post (2.0.0)
+    naught (1.0.0)
+    parser (2.2.0.2)
+      ast (>= 1.1, < 3.0)
+    powerpack (0.0.9)
+    rainbow (2.0.0)
+    rubocop (0.28.0)
+      astrolabe (~> 1.3)
+      parser (>= 2.2.0.pre.7, < 3.0)
+      powerpack (~> 0.0.6)
+      rainbow (>= 1.99.1, < 3.0)
+      ruby-progressbar (~> 1.4)
+    ruby-progressbar (1.7.1)
+    simple_oauth (0.3.0)
+    thread_safe (0.3.4)
+    twitter (5.13.0)
+      addressable (~> 2.3)
+      buftok (~> 0.2.0)
+      equalizer (~> 0.0.9)
+      faraday (~> 0.9.0)
+      http (~> 0.6.0)
+      http_parser.rb (~> 0.6.0)
+      json (~> 1.8)
+      memoizable (~> 0.4.0)
+      naught (~> 1.0)
+      simple_oauth (~> 0.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  awesome_print
+  bson
+  bson_ext
+  json
+  mongo
+  rubocop
+  twitter

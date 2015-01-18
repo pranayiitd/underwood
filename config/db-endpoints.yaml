@@ -1,0 +1,3 @@
+host: localhost
+db: twitter_project
+collection: tweets
